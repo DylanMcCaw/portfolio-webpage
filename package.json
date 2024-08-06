@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": ".",
+  "homepage": "https://dylanmccaw.github.io/personal-website/",
   "scripts": {
     "build": "vite build",
     "deploy": "gh-pages -d dist"
