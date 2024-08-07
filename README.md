@@ -2,6 +2,8 @@
 
 Welcome to my portfolio website! This project is built using [Vite](https://vitejs.dev/), [React](https://reactjs.org/), and [Mantine](https://mantine.dev/). It showcases my experience, projects, skills, and more.
 
+[Live demo](https://dylan.software)
+
 ![Portfolio Screenshot](https://github.com/DylanMcCaw/personal-website/blob/master/public/personal-website-screenshot.png)
 
 ## Table of Contents
