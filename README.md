@@ -1,4 +1,4 @@
-# Portfolio Website
+# Portfolio Webpage
 
 Welcome to my portfolio website! This project is built using [Vite](https://vitejs.dev/), [React](https://reactjs.org/), and [Mantine](https://mantine.dev/). It showcases my experience, projects, skills, and more.
 
