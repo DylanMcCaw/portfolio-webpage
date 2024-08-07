@@ -1,5 +1,6 @@
 import React from 'react';
-import { Title, Text, SimpleGrid, Badge } from '@mantine/core';
+import { Title, Text, SimpleGrid, Badge, ActionIcon } from '@mantine/core';
+import { ExternalLink } from 'tabler-icons-react';
 
 function Projects() {
   const projects = [
@@ -7,7 +8,8 @@ function Projects() {
       title: 'moola',
       description: 'A web app for tracking personal finances',
       skills: ['.NET Core', 'ASP.NET', 'Entity Framework', 'Automapper', 'SQL Server Management Studio', 'REST API', 'React'],
-      image: '/moola-home-screenshot.png'
+      image: '/moola-home-screenshot.png',
+      githubUrl: 'https://github.com/DylanMcCaw/moola'
     },
   ];
 
@@ -25,12 +27,26 @@ function Projects() {
       >
         {projects.map((project, index) => (
           <div key={index} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-            <Title order={3} style={{ fontFamily: 'Space Mono' }}>{project.title}</Title>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+              <Title order={3} style={{ fontFamily: 'Space Mono' }}>{project.title}</Title>
+              <ActionIcon 
+                color="none" 
+                variant="transparent" 
+                size="lg" 
+                className="icon-hover" 
+                component="a" 
+                href={project.githubUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink size={20} />
+              </ActionIcon>
+            </div>
             <div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
               <img
                 src={project.image}
                 alt={`${project.title} screenshot`}
-                style={{ width: '200px', height: 'auto', borderRadius: '8px' }}
+                style={{ paddingTop:"5px", width: '200px', height: 'auto', borderRadius: '8px' }}
               />
               <div style={{ flex: 1 }}>
                 <Text size="sm" style={{ marginBottom: '10px' }}>
