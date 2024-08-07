@@ -6,6 +6,20 @@ import Typewriter from 'typewriter-effect';
 function LeftSection({ activeSection }) {
   const sections = ['about', 'experience', 'projects', 'skills', 'blogs'];
 
+  const handleSectionClick = (section) => {
+    if (section === 'about') {
+      // Scroll to the top of the page
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      const element = document.getElementById(section);
+      if (element) {
+        const yOffset = -40; // Adjust this value to set the amount of space from the top
+        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+    }
+  };
+
   return (
     <Box>
       <Group mb="lg">
@@ -17,7 +31,7 @@ function LeftSection({ activeSection }) {
           title="GitHub"
           variant="transparent"
           size="lg"
-          className="icon-hover" /* Add class for custom styles */
+          className="icon-hover"
         >
           <BrandGithub size={30} />
         </ActionIcon>
@@ -29,7 +43,7 @@ function LeftSection({ activeSection }) {
           title="LinkedIn"
           variant="transparent"
           size="lg"
-          className="icon-hover" /* Add class for custom styles */
+          className="icon-hover"
         >
           <BrandLinkedin size={30} />
         </ActionIcon>
@@ -50,9 +64,11 @@ function LeftSection({ activeSection }) {
         {sections.map((section) => (
           <List.Item
             key={section}
+            onClick={() => handleSectionClick(section)}
             style={{
               color: activeSection === section ? '#248277' : 'inherit',
-              fontWeight: activeSection === section ? 'bold' : 'normal', // Bold text for active section
+              fontWeight: activeSection === section ? 'bold' : 'normal',
+              cursor: 'pointer',
             }}
           >
             {section.charAt(0).toUpperCase() + section.slice(1)}

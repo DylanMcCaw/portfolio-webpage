@@ -5,6 +5,8 @@
   "type": "module",
   "homepage": "https://dylan.software",
   "scripts": {
+    "start": "vite",
+    "dev": "vite",
     "build": "vite build",
     "deploy": "gh-pages -d dist"
   },
