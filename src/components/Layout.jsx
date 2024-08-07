@@ -99,7 +99,7 @@ function Layout({ toggleColorScheme, colorScheme }) {
           <Box
             style={{
               width: '100%',
-              marginLeft: '30%',
+              marginLeft: '25%',
               paddingLeft: 'calc(50% - 600px + 30%)',
               paddingTop: '200px',
               paddingBottom: '20px',
