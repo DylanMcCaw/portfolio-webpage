@@ -54,7 +54,7 @@ function Projects() {
                 </Text>
                 <div>
                   {project.skills.map((skill, skillIndex) => (
-                    <Badge key={skillIndex} color="#248277" size="sm" style={{ marginRight: '5px', marginBottom: '5px' }}>
+                    <Badge key={skillIndex} color="#248277" size="sm" style={{ marginRight: '10px', marginBottom: '10px' }}>
                       {skill}
                     </Badge>
                   ))}

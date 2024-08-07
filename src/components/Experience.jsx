@@ -49,7 +49,7 @@ function Experience() {
               </Text>
               <div style={{ marginTop: '20px', marginBottom: '60px'}}>
                 {experience.skills.map((skill, skillIndex) => (
-                  <Badge key={skillIndex} color="#248277" size="sm" style={{ marginRight: '5px' }}>
+                  <Badge key={skillIndex} color="#248277" size="sm" style={{ marginRight: '10px', marginBottom: '10px'}}>
                     {skill}
                   </Badge>
                 ))}

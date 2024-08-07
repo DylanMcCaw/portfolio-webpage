@@ -48,7 +48,7 @@ function Skills() {
           </Text>
           <Group spacing="xs" style={{ flexWrap: 'wrap' }}>
             {skills.map((skill, index) => (
-              <Badge key={index} color="#248277" size="md" style={{ margin: '5px' }}>
+              <Badge key={index} color="#248277" size="md" style={{ margin: '1px' }}>
                 {skill}
               </Badge>
             ))}
