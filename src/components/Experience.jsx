@@ -17,7 +17,7 @@ function Experience() {
       title: 'Software Engineer',
       company: 'Leidos',
       companyLink: 'https://www.leidos.com/',
-      project: 'Scottish Government Web App',
+      project: 'Scottish Government Case Handling System',
       description: 'As a Full Stack Developer, I helped design and implement a React.js case handling system with a .NET Microservice backend for the Scottish Government - which is now live and used by 1000s of users. Using SCRUM and Agile methods, we ensured timely delivery and adaptability while closely collaborating with the client to refine requirements and meet their needs.',
       skills: ['.NET', 'C#', 'NUnit', 'React', 'Redux', 'Jest', 'SQL Management Studio', 'MS Build', 'Team Foundation Server', 'Git' ]
     }
@@ -41,13 +41,13 @@ function Experience() {
                   {experience.company}
                 </Anchor>
               </Text>
-              <Text size="sm" style={{ marginTop: '5px' }}>
+              <Text size="xs" style={{ marginTop: '15px'}}>
                 {experience.project}
               </Text>
-              <Text color="dimmed" size="xs" style={{ marginTop: '5px' }}>
+              <Text color="dimmed" size="xs" style={{ marginTop: '20px' }}>
                 {experience.description}
               </Text>
-              <div style={{ marginTop: '5px', marginBottom: '60px'}}>
+              <div style={{ marginTop: '20px', marginBottom: '60px'}}>
                 {experience.skills.map((skill, skillIndex) => (
                   <Badge key={skillIndex} color="#248277" size="sm" style={{ marginRight: '5px' }}>
                     {skill}

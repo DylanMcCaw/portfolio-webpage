@@ -6,7 +6,7 @@ function Projects() {
   const projects = [
     {
       title: 'moola',
-      description: 'A web app for tracking personal finances',
+      description: 'A personal finance tracker web app designed to help you manage your finances effectively.',
       skills: ['.NET Core', 'ASP.NET', 'Entity Framework', 'Automapper', 'SQL Server Management Studio', 'REST API', 'React'],
       image: '/moola-home-screenshot.png',
       githubUrl: 'https://github.com/DylanMcCaw/moola'
@@ -49,7 +49,7 @@ function Projects() {
                 style={{ paddingTop:"5px", width: '200px', height: 'auto', borderRadius: '8px' }}
               />
               <div style={{ flex: 1 }}>
-                <Text size="sm" style={{ marginBottom: '10px' }}>
+                <Text size="xs" color="dimmed" style={{ marginBottom: '15px' }}>
                   {project.description}
                 </Text>
                 <div>
