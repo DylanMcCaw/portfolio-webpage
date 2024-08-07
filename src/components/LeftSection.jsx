@@ -60,10 +60,11 @@ function LeftSection({ activeSection }) {
         />
       </Text>
       {/* List of Sections */}
-      <List spacing="sm" size="sm" center>
+      <List spacing="sm" size="sm" center withPadding>
         {sections.map((section) => (
           <List.Item
             key={section}
+            icon="—" // Dash icon
             onClick={() => handleSectionClick(section)}
             style={{
               color: activeSection === section ? '#248277' : 'inherit',

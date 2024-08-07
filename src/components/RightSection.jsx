@@ -14,7 +14,7 @@ function RightSection({ sectionRefs }) {
       <div id="about" ref={(el) => (sectionRefs.current['about'] = el)} style={sectionStyle}>
         <About />
       </div>
-      <div id="experience" ref={(el) => (sectionRefs.current['experience'] = el)} style={sectionStyle}>
+      <div id="experience" ref={(el) => (sectionRefs.current['experience'] = el)}>
         <Experience />
       </div>
       <div id="projects" ref={(el) => (sectionRefs.current['projects'] = el)} style={sectionStyle}>

@@ -13,7 +13,7 @@ function Projects() {
 
   return (
     <>
-      <Title style={{ color: "#248277", paddingBottom: "15px", fontFamily: 'Space Mono' }} order={2}>
+      <Title style={{ color: "#248277", paddingBottom: "30px", fontFamily: 'Space Mono' }} order={2}>
         Projects
       </Title>
       <SimpleGrid
