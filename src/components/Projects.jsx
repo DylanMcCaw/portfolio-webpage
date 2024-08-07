@@ -40,7 +40,7 @@ function Projects() {
                 rel="noopener noreferrer"
               >
                 <ExternalLink size={20} />
-              </ActionIcon>``
+              </ActionIcon>
             </div>
             <div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
               <img
