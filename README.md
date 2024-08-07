@@ -4,7 +4,7 @@ Welcome to my portfolio website! This project is built using [Vite](https://vite
 
 [Live demo](https://dylan.software)
 
-![Portfolio Screenshot](https://github.com/DylanMcCaw/personal-website/blob/master/public/personal-website-screenshot.png)
+![Portfolio Screenshot](https://github.com/DylanMcCaw/personal-website/blob/master/public/personal-website-screenshot-updated.png)
 
 ## Table of Contents
 
