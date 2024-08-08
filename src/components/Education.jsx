@@ -21,7 +21,7 @@ function Education() {
             </Text>
           </Grid.Col>
           <Grid.Col span={8}>
-            <Text weight={700} size="md">
+            <Text style={{ fontWeight: 'bold' }}size="md">
               {edu.degree}
             </Text>
             <Text weight={700} size="md" color='dimmed'>

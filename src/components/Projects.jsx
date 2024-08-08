@@ -19,7 +19,7 @@ function Projects() {
         {projects.map((project, index) => (
           <div key={index} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <Text weight={700} size="lg"> 
+            <Text style={{ fontWeight: 'bold' }} size="lg"> 
                 {project.title}
             </Text>
               <ActionIcon 
