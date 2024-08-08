@@ -20,6 +20,10 @@
   --button-text: #333333;
 }
 
+::selection {
+  background: #007c7c;
+}
+
 /* Apply Space Mono font globally */
 body {
   font-family: 'Space Mono', serif;
