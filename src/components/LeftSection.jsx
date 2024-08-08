@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 import { LINKEDIN_URL, GITHUB_URL } from '../data/socialmedia';
 
 function LeftSection({ activeSection }) {
-  const sections = ['about', 'experience', 'projects', 'skills', 'blogs'];
+  const sections = ['about', 'experience', 'education', 'projects', 'skills', 'blogs'];
 
   const handleSectionClick = (section) => {
     if (section === 'about') {

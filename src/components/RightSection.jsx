@@ -5,6 +5,7 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Blogs from './Blogs';
 import Skills from './Skills';
+import Education from './Education';
 
 function RightSection({ sectionRefs }) {
   const sectionStyle = { marginBottom: '4rem' };
@@ -22,6 +23,10 @@ function RightSection({ sectionRefs }) {
       <Divider style={dividerStyle} />
       <div id="experience" ref={(el) => (sectionRefs.current['experience'] = el)}>
         <Experience />
+      </div>
+      <Divider style={dividerStyle} />
+      <div id="education" ref={(el) => (sectionRefs.current['education'] = el)}>
+        <Education />
       </div>
       <Divider style={dividerStyle} />
       <div id="projects" ref={(el) => (sectionRefs.current['projects'] = el)} style={sectionStyle}>
