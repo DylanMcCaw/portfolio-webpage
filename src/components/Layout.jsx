@@ -62,7 +62,7 @@ function Layout({ toggleColorScheme, colorScheme }) {
           <Box
             style={{
               width: '100%',
-              marginBottom: '20px',
+              marginBottom: '50px',
             }}
           >
             <LeftSection activeSection={activeSection} />
