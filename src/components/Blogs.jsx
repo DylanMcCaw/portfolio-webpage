@@ -1,11 +1,8 @@
 import React from 'react';
+import { blogs } from '../data/blogs'
 import { Title, List, Text } from '@mantine/core';
 
 function Blogs() {
-  const blogs = [
-    // Populate with blog objects if available
-  ];
-
   return (
     <>
       <Title style={{color:"#248277", paddingBottom:"30px", fontFamily:'Space Mono'}} order={2}>Blogs</Title>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Title, Text, List, Group, ActionIcon } from '@mantine/core';
 import { BrandGithub, BrandLinkedin } from 'tabler-icons-react';
 import Typewriter from 'typewriter-effect';
+import { LINKEDIN_URL, GITHUB_URL } from '../data/socialmedia';
 
 function LeftSection({ activeSection }) {
   const sections = ['about', 'experience', 'projects', 'skills', 'blogs'];
@@ -25,7 +26,7 @@ function LeftSection({ activeSection }) {
       <Group mb="lg">
         <ActionIcon 
           component="a" 
-          href="https://github.com/DylanMcCaw" 
+          href={GITHUB_URL}
           target="_blank" 
           rel="noopener noreferrer"
           title="GitHub"
@@ -37,7 +38,7 @@ function LeftSection({ activeSection }) {
         </ActionIcon>
         <ActionIcon 
           component="a" 
-          href="https://www.linkedin.com/in/dylan-mccaw-a0b338183" 
+          href={LINKEDIN_URL}
           target="_blank" 
           rel="noopener noreferrer"
           title="LinkedIn"
@@ -64,7 +65,7 @@ function LeftSection({ activeSection }) {
         {sections.map((section) => (
           <List.Item
             key={section}
-            icon="—" // Dash icon
+            icon="—"
             onClick={() => handleSectionClick(section)}
             style={{
               color: activeSection === section ? '#248277' : 'inherit',

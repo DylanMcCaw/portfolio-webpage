@@ -1,47 +1,14 @@
 import React from 'react';
+import { skills } from '../data/skills'
 import { Title, Badge, Group, Text } from '@mantine/core';
 
 function Skills() {
-  const skillCategories = {
-    Languages: [
-      'C#',
-      'JavaScript',
-      'Java',
-      'Python',
-      'HTML',
-      'CSS',
-      'SQL',
-    ],
-    Technologies: [
-      '.NET',
-      'ASP.NET',
-      'React',
-      'REST API',
-      'Azure Cloud Technologies',
-      'Git',
-      'Jenkins',
-      'Jira',
-      'BitBucket',
-      'Confluence',
-      'Terraform',
-      '...'
-    ],
-    Principles: [
-      'Agile Methodology',
-      'Object-Oriented Programming',
-      'SOLID Principles',
-      'CI/CD',
-      'Design Patterns',
-      '...'
-    ]
-  };
-
   return (
     <>
       <Title style={{ color: "#248277", paddingBottom: "15px", fontFamily: 'Space Mono' }} order={2}>
         Skills
       </Title>
-      {Object.entries(skillCategories).map(([category, skills]) => (
+      {Object.entries(skills).map(([category, skills]) => (
         <div key={category} style={{ marginBottom: '20px' }}>
           <Text color="dimmed" weight={700} size="md" style={{ marginBottom: '10px' }}>
             {category}

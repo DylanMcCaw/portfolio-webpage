@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from '@mantine/core';
-import { School, Location, Tex } from 'tabler-icons-react';
+import { School, Location } from 'tabler-icons-react';
 
 function About() {
   return (

@@ -1,18 +1,9 @@
 import React from 'react';
+import { projects } from '../data/projects'
 import { Title, Text, SimpleGrid, Badge, ActionIcon } from '@mantine/core';
 import { ExternalLink } from 'tabler-icons-react';
 
 function Projects() {
-  const projects = [
-    {
-      title: 'moola',
-      description: 'A personal finance tracker web app designed to help you manage your finances effectively.',
-      skills: ['.NET Core', 'ASP.NET', 'Entity Framework', 'Automapper', 'SQL Server Management Studio', 'REST API', 'React'],
-      image: '/moola-home-screenshot.png',
-      githubUrl: 'https://github.com/DylanMcCaw/moola'
-    },
-  ];
-
   return (
     <>
       <Title style={{ color: "#248277", paddingBottom: "30px", fontFamily: 'Space Mono' }} order={2}>
