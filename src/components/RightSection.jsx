@@ -11,6 +11,7 @@ function RightSection({ sectionRefs }) {
   const sectionStyle = { marginBottom: '4rem' };
   const dividerStyle = { 
     borderTop: '3px dotted #248277',
+    paddingBottom: '15px',
     opacity: 0.25,
     margin: '2rem 0'
   };

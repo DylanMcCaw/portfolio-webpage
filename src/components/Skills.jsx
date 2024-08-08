@@ -10,7 +10,7 @@ function Skills() {
       </Title>
       {Object.entries(skills).map(([category, skills]) => (
         <div key={category} style={{ marginBottom: '20px' }}>
-          <Text color="dimmed" weight={700} size="md" style={{ marginBottom: '10px' }}>
+          <Text color="dimmed" weight={700} size="md" style={{ marginBottom: '15px' }}>
             {category}
           </Text>
           <Group spacing="xs" style={{ flexWrap: 'wrap' }}>
