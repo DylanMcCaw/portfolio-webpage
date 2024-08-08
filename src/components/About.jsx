@@ -1,9 +1,8 @@
 import React from 'react';
 import { Text } from '@mantine/core';
-import { School, Location } from 'tabler-icons-react';
+import { MapPin } from 'tabler-icons-react';
 
 const highlightStyle = { color: '#248277' };
-const indentStyle = { paddingLeft: "28px" };
 
 function About() {
   return (
@@ -23,7 +22,7 @@ function About() {
       </Text>
       <br />
       <Text>
-        <Location size={15} /> Falkirk, Scotland, United Kingdom
+        <MapPin style={highlightStyle} size={15} /> Falkirk, Scotland, United Kingdom
       </Text>
     </>
   );
