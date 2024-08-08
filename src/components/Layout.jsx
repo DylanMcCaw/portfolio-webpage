@@ -89,7 +89,7 @@ function Layout({ toggleColorScheme, colorScheme }) {
               width: '30%',
               position: 'fixed',
               top: 200,
-              left: 'calc(50% - 600px)',
+              left: 'calc(55% - 600px)',
               height: 'calc(100vh - 160px)',
               overflowY: 'auto',
             }}
@@ -99,8 +99,8 @@ function Layout({ toggleColorScheme, colorScheme }) {
           <Box
             style={{
               width: '100%',
-              marginLeft: '25%',
-              paddingLeft: 'calc(50% - 600px + 30%)',
+              marginLeft: '42%',
+              paddingLeft: 'calc(30% - 700px + 30%)',
               paddingTop: '200px',
               paddingBottom: '20px',
             }}
