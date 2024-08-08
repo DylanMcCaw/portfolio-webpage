@@ -19,7 +19,9 @@ function Projects() {
         {projects.map((project, index) => (
           <div key={index} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-              <Title order={3} style={{ fontFamily: 'Space Mono' }}>{project.title}</Title>
+            <Text weight={700} size="lg"> 
+                {project.title}
+            </Text>
               <ActionIcon 
                 color="none" 
                 variant="transparent" 
@@ -40,7 +42,7 @@ function Projects() {
                 style={{ paddingTop:"5px", width: '200px', height: 'auto', borderRadius: '8px' }}
               />
               <div style={{ flex: 1 }}>
-                <Text size="xs" color="dimmed" style={{ marginBottom: '15px' }}>
+                <Text size="sm" color="dimmed" style={{ marginBottom: '15px' }}>
                   {project.description}
                 </Text>
                 <div>

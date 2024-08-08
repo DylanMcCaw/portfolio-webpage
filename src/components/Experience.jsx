@@ -11,7 +11,7 @@ function Experience() {
           <Grid.Col span={4}>
             <Text 
               color="dimmed" 
-              size="xs" 
+              size="sm" 
               style={{ 
                 maxWidth: '100%', 
                 wordBreak: 'break-word'
@@ -21,16 +21,16 @@ function Experience() {
             </Text>
           </Grid.Col>
           <Grid.Col span={8}>
-            <Text weight={700} size="sm">
+            <Text weight={700} size="md">
               {experience.title} - {' '}
               <Anchor href={experience.companyLink} target="_blank" style={{ color: '#248277' }}>
                 {experience.company}
               </Anchor>
             </Text>
-            <Text size="xs" style={{ marginTop: '15px'}}>
+            <Text size="sm" style={{ marginTop: '15px'}}>
               {experience.project}
             </Text>
-            <Text color="dimmed" size="xs" style={{ marginTop: '20px' }}>
+            <Text color="dimmed" size="sm" style={{ marginTop: '20px' }}>
               {experience.description}
             </Text>
             <Box style={{ marginTop: '20px' }}>
