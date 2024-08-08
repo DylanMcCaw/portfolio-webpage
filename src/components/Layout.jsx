@@ -5,6 +5,7 @@ import { isMobile } from 'react-device-detect';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
 
+
 function Layout({ toggleColorScheme, colorScheme }) {
   const [activeSection, setActiveSection] = useState('about');
   const sectionRefs = useRef({});
@@ -101,7 +102,7 @@ function Layout({ toggleColorScheme, colorScheme }) {
               width: '100%',
               marginLeft: '50%',
               paddingLeft: 'calc(50% - 900px + 20%)',
-              paddingTop: '200px',
+              paddingTop: '180px',
               paddingBottom: '20px',
             }}
           >

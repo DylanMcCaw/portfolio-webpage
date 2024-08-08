@@ -1,11 +1,12 @@
 import React from 'react';
 import { Box, Title, Text, List, Group, ActionIcon } from '@mantine/core';
-import { BrandGithub, BrandLinkedin } from 'tabler-icons-react';
+import { BrandGithub, BrandLinkedin, MapPin, Mail } from 'tabler-icons-react';
 import Typewriter from 'typewriter-effect';
 import { LINKEDIN_URL, GITHUB_URL } from '../data/socialmedia';
 
 function LeftSection({ activeSection }) {
   const sections = ['about', 'experience', 'education', 'projects', 'skills', 'blogs'];
+  const highlightStyle = { color: '#248277', fontWeight:'bold' };
 
   const handleSectionClick = (section) => {
     if (section === 'about') {
@@ -50,7 +51,7 @@ function LeftSection({ activeSection }) {
         </ActionIcon>
       </Group>
       <Title order={1} style={{ fontFamily: 'Space Mono' }}>Dylan McCaw</Title>
-      <Text size="xl" mb="xl" style={{ paddingBottom: "15px", paddingTop:'15px'}}>
+      <Text size="xl" mb="xl" style={{ paddingTop:'15px'}}>
         <Typewriter
           options={{
             strings: ['Software Engineer'],
@@ -60,6 +61,14 @@ function LeftSection({ activeSection }) {
           }}
         />
       </Text>
+      <div style={{paddingBottom:'40px'}}>
+      <Text>
+        <Mail style={highlightStyle} size={15} /> me@dylan.software
+      </Text>
+      <Text>
+        <MapPin style={highlightStyle} size={15} /> Falkirk, Scotland, United Kingdom
+      </Text>
+      </div>
       {/* List of Sections */}
       <List spacing="sm" size="sm" center withPadding>
         {sections.map((section) => (

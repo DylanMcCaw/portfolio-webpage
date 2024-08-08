@@ -1,6 +1,5 @@
 import React from 'react';
 import { Text } from '@mantine/core';
-import { MapPin } from 'tabler-icons-react';
 
 const highlightStyle = { color: '#248277', fontWeight:'bold' };
 
@@ -19,10 +18,6 @@ function About() {
         I am passionate about clean code, cloud-native solutions, and continuously improving the developer experience. 
         <br /><br />
         With a strong foundation in both front-end and back-end development, I thrive on delivering end-to-end solutions that are robust, secure, and user-friendly.
-      </Text>
-      <br />
-      <Text>
-        <MapPin style={highlightStyle} size={15} /> Falkirk, Scotland, United Kingdom
       </Text>
     </>
   );
