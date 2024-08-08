@@ -45,11 +45,11 @@ Make sure you have the following installed on your development machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/DylanMcCaw/portfolio-webpage.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd your-repo-name
+   cd portfolio-webpage
    ```
 3. **Install the dependencies:**
    ```bash
