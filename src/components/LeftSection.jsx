@@ -49,7 +49,7 @@ function LeftSection({ activeSection }) {
         </ActionIcon>
       </Group>
       <Title order={1} style={{ fontFamily: 'Space Mono' }}>Dylan McCaw</Title>
-      <Text size="xl" mb="xl" style={{ paddingBottom: "15px" }}>
+      <Text size="xl" mb="xl" style={{ paddingBottom: "15px", paddingTop:'15px'}}>
         <Typewriter
           options={{
             strings: ['Software Engineer'],

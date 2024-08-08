@@ -50,7 +50,7 @@ function Layout({ toggleColorScheme, colorScheme }) {
     >
       <ActionIcon
         variant="outline"
-        color={colorScheme === 'dark' ? 'yellow' : '#248277'}
+        color={colorScheme === 'dark' ? 'white' : '#248277'}
         onClick={() => toggleColorScheme()}
         title="Toggle color scheme"
         style={{ position: 'fixed', top: 20, right: 20, zIndex: 1000 }}

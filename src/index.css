@@ -3,7 +3,7 @@
 
 /* Define global CSS variables for light and dark themes */
 :root {
-  --bg-color: #ffffff;
+  --bg-color: #FAFAFE;
   --text-color: #333333;
   --icon-color: #000000; /* Default icon color for light mode */
   --header-bg: #f0f0f0;
@@ -53,6 +53,10 @@ header {
   text-align: center;
 }
 
+.Typewriter__cursor {
+  color: #248277;
+}
+
 /* Headings styling */
 h1, h2, h3 {
   margin-bottom: 10px;
@@ -83,3 +87,4 @@ footer {
   margin-top: 40px;
   text-align: center;
 }
+
