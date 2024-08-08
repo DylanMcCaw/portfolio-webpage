@@ -78,8 +78,8 @@ function Layout({ toggleColorScheme, colorScheme }) {
       ) : (
         <Box
           style={{
-            width: '70%',
-            maxWidth: '1200px',
+            width: '80%',
+            maxWidth: '1300px',
             display: 'flex',
             position: 'relative',
           }}
@@ -99,8 +99,8 @@ function Layout({ toggleColorScheme, colorScheme }) {
           <Box
             style={{
               width: '100%',
-              marginLeft: '42%',
-              paddingLeft: 'calc(30% - 700px + 30%)',
+              marginLeft: '50%',
+              paddingLeft: 'calc(50% - 900px + 20%)',
               paddingTop: '200px',
               paddingBottom: '20px',
             }}
