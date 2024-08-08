@@ -2,7 +2,7 @@ import React from 'react';
 import { Text } from '@mantine/core';
 import { MapPin } from 'tabler-icons-react';
 
-const highlightStyle = { color: '#248277' };
+const highlightStyle = { color: '#248277', fontWeight:'bold' };
 
 function About() {
   return (

@@ -21,7 +21,7 @@ function Experience() {
             </Text>
           </Grid.Col>
           <Grid.Col span={8}>
-            <Text weight={700} size="md">
+            <Text style={{fontWeight:'bold'}} size="md">
               {experience.title} - {' '}
               <Anchor href={experience.companyLink} target="_blank" style={{ color: '#248277' }}>
                 {experience.company}
