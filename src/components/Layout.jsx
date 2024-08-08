@@ -78,7 +78,7 @@ function Layout({ toggleColorScheme, colorScheme }) {
       ) : (
         <Box
           style={{
-            width: '80%',
+            width: '100%',
             maxWidth: '1300px',
             display: 'flex',
             position: 'relative',

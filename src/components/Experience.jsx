@@ -27,7 +27,7 @@ function Experience() {
                 {experience.company}
               </Anchor>
             </Text>
-            <Text size="sm" style={{ marginTop: '15px'}}>
+            <Text size="sm" style={{ marginTop: '15px', fontStyle:'italic'}}>
               {experience.project}
             </Text>
             <Text color="dimmed" size="sm" style={{ marginTop: '20px' }}>
